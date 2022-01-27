@@ -1,0 +1,101 @@
+body{
+    background-color:rgb(255, 174, 0) ;
+}
+
+h1{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 0, 234);
+    font-weight: bolder;
+}
+
+a:link{
+    
+}
+a:focus{
+    background-color: yellow;
+}
+
+a:visited{
+    
+}
+
+.menu{
+    display: inline-block;
+    margin-left: 5%;
+    margin-right: 5%;
+   
+    
+}
+
+#listamenu{
+    background-color: pink;
+}
+
+img{
+    height: 350px;
+    width: 450px;
+}
+
+#datos{
+    background-color: rgb(247, 210, 130);
+    border: solid 3px black;
+    position: absolute;
+    width: 20%;
+    
+    
+}
+
+#colaboraciones{
+ 
+    background-color: rgb(247, 210, 130);
+    border: solid 3px black;
+    position: absolute;
+    margin-left: 75%;
+    margin-top: 50px;
+    width: 20%;
+}
+
+
+#exitos{
+    background-color: rgb(247, 210, 130);
+    border: solid 3px black;
+    position: absolute;
+    margin-left: 67%;
+    margin-top: 300px;
+    width: 30%;
+    
+
+}
+
+#premios{
+    background-color: rgb(247, 210, 130);
+    border: solid 3px black;
+    margin-top: 200px;
+    position: absolute;
+    width: 40%;
+    
+}
+
+#hvideo{
+    text-align: center;
+    margin-top: 570px;
+}
+
+h1:hover{
+    transform: scale(1.5); 
+    transition: transform .2s;
+}
+
+div:hover{
+    transform: scale(1.5); 
+    transition: transform .2s;
+}
+
+iframe{
+    margin-left: 36%;
+    margin-right: 30%;
+}
